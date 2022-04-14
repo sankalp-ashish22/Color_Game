@@ -45,6 +45,7 @@ span{
     display: inline-block;
     width: 20%;
     color: red;
+    font-weight: 600;
 }
 #reset{
     margin-left: 7%;

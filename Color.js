@@ -116,6 +116,7 @@ for (var i = 0; i < squares.length; i++) {
    
         if (clickedColor == pickedColor) {
             messageDisplay.textContent = "Correct!";
+            messageDisplay.style.color ="#26D701";
             resetButton.textContent = "Play Again!";
             changeColors(clickedColor);
             h1.style.background = clickedColor;
@@ -123,7 +124,8 @@ for (var i = 0; i < squares.length; i++) {
         else {
             this.style.backgroundImage = "url('wrong.jpg')";
             this.style.backgroundSize = "cover";
-            messageDisplay.textContent = "Try Again";
+            messageDisplay.textContent = "Try Again!";
+            messageDisplay.style.color="#ff1616";
             
         }
     });
